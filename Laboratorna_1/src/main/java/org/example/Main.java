@@ -6,7 +6,6 @@ public class Main {
         System.out.println("\n\n ~ ~ ~ Лаборанторна робота №1 ~ ~ ~");
         System.out.println("\t Баранівська Валерія KM-23\n");
 
-
         ArrayList<String> stringList = new ArrayList<>();
         stringList.add("11");
         stringList.add("22.5");

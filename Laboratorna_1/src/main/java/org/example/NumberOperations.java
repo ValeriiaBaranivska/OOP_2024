@@ -19,9 +19,6 @@ public class NumberOperations {
             } catch (NumberFormatException e){
                 System.out.println("Помилка форматування числа: " + number);
             }
-            // збереження чисел в різних списках в залежності від типу
-
-
         }
 
         System.out.println("Всі числа: " + list_numbers );
@@ -66,16 +63,12 @@ public class NumberOperations {
                 Num2.add(String.valueOf(prod_num));
             }
         }
-
         int totalNumbers = integerNumbers.size() + decimalNumbers.size();
         double average = (totalNumbers > 0) ? (double) sum_all / totalNumbers : 0; // Запобігання діленню на нуль
 
-
-
         System.out.println("Сума всіх чисел в списку: " + sum_all);
-        System.out.println("Добуток перших 5 чисел списку: "+ product);
+        System.out.println("Добуток перших 5 чисел списку: " + product);
         System.out.println("Середнє значення всіх чисел у списку: " + average);
-
         System.out.println("Новий список, який містить тільки цілі числа з початкового: " + integerNumbers);
 
         int sum_pow = 0;
@@ -103,7 +96,6 @@ public class NumberOperations {
                 integerNumbers.add(integerNumber);
                 int f_num = (integerNumber + 10) / 2;
                 formula_num.add(String.valueOf(f_num));
-
             }
         }
         System.out.println("Новий список, де кожне число початкового помножене на 2: " + Num2 );
