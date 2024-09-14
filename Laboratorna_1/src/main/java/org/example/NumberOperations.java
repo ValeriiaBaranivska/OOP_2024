@@ -20,7 +20,6 @@ public class NumberOperations {
                 // Якщо не вдалося конвертувати в int, спробуємо конвертувати в double
                 try {
                     double doubNum = Double.parseDouble(list_numbers.get(i));
-                    intNum_list.add((Integer.parseInt(String.valueOf(doubNum))));
                     double_list.add(String.format("%.2f", doubNum).replace(",", "."));
                 } catch (NumberFormatException ex) {
                     // Якщо не вдалося конвертувати в double, виведемо помилку
